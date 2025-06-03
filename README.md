@@ -2,7 +2,7 @@
 O prejeto tem como objetivo criar uma Pipeline de Dados utilizando Python Orientado a Objetos. Foi informado uma situação de negócio e utilizando Python, foi proposto scripts para tratamento dos dados.
 
 ## Objetivo
-A Empresa A e Empresa B fundiram e querem saber o resultado após essa fusão. Cada uma disponibilizou um arquivo em com as informações de vendas e foi solicitado para juntar essas duas informações e disponibilizar em um arquivo .csv para o time realizar as análises.
+A Empresa A e Empresa B fundiram e querem saber o resultado após essa fusão. Cada uma disponibilizou um arquivo com as informações de vendas e foi solicitado para juntar essas duas informações e disponibilizar em um arquivo .csv para o time realizar as análises.
 O arquivo da Empresa A é um JSON e o da Empresa B um CSV.
 
 ## Método
@@ -38,7 +38,7 @@ key_map = {'Nome do Item':'Nome do Produto',
 Para a coluna faltante no arquivo da Empresa A, "Data da Venda", foi colocado como valor "Indisponível" na junção dos dois arquivos.
 
 ## Resultado
-Foram feitos 4 arquivos Python para tratamento deles. O resultado obtido é o mesmo, mas por métodos diferentes.
+Foram feitos 4 arquivos Python para tratamento dos dados. O resultado obtido é o mesmo, mas por métodos diferentes.
 - script.py: é o tratamento que foi desenvolvido na exploração com o Notebook de forma sucinta e com indicação do que está sendo feito;
 - script2.py: utiliza de funções para o tratamento dos dados;
 - processamento_dados.py: Classe Dado desenvolvida para ter os atributos e métodos necessário para fazer o tratamento proposto;
